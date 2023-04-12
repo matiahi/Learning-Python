@@ -21,12 +21,12 @@ guess = rand(lower_range, upper_range)
 # a loop for check condition and return amount base on the guess number
 while guess != my_number:
     if guess < my_number:
-        lower_range = guess - 1
+        lower_range = guess
         upper_range = upper_range
         print('lower_range = ', lower_range)
 
     else:
-        upper_range = guess - 1
+        upper_range = guess
         lower_range = lower_range
         print('upper_range = ', upper_range)
 # call function for continue process
