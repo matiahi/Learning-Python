@@ -22,12 +22,10 @@ guess = rand(lower_range, upper_range)
 while guess != my_number:
     if guess < my_number:
         lower_range = guess
-        upper_range = upper_range
         print('lower_range = ', lower_range)
 
     else:
         upper_range = guess
-        lower_range = lower_range
         print('upper_range = ', upper_range)
 # call function for continue process
     guess = rand(lower_range, upper_range)
